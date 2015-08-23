@@ -1,5 +1,5 @@
 # JSmdns
-mDNS service discovery written in javascript for chrome exstensions.
+mDNS service discovery written in javascript for chrome apps.
 
 #### OBS
 
