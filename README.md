@@ -74,3 +74,12 @@ Example
     "ips": ["192.168.0.12"]
 }]
 ```
+
+#### Real name of services
+A list 'serviceTypes' based on /usr/share/avahi/service-types have been generated and can be used like this
+
+```javascript
+serviceTypes["_acrobatSRV._tcp"]
+>> "Adobe Acrobat"
+```
+
