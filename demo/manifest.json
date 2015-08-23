@@ -1,0 +1,15 @@
+{
+  "name": "mDNS discovery",
+  "description": "Prints a list of discovered services",
+  "manifest_version": 2,
+  "version": "1.0",
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "sockets": {
+     "udp": { "bind": "*", "send": "*" }
+  },
+  "permissions": [ "system.network" ]
+}
