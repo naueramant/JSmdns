@@ -20,7 +20,6 @@ var refresh = function() {
                 li.appendChild(text);
                 ul.appendChild(li);
             });
-            console.log(ul);
             rescontainer.appendChild(ul);
         });
     });
