@@ -19,7 +19,7 @@ Your also need permission to system.network and udp sockets so you will have to 
   "permissions": [ "system.network" ]
 ```
 
-#### Manifesto example
+Example
 ```
 {
   "name": "My App",
